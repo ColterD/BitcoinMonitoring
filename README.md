@@ -1,6 +1,6 @@
 # Bitcoin Monitoring
 
-**What us it?**
+**What is it?**
 
 I wrote these scripts to monitor the progress of my bitcoin mining using NiceHash. 
 
