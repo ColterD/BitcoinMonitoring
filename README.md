@@ -16,16 +16,16 @@ What are the requirements?
  - Pulls current BTC index price
  - Calculates your balance in USD based on the above two metrics
  
- Outputs:
- bitcoin.totalbalance (Your BTC Balance)
- bitcoin.currentbtcprice (Current BTC Index price in USD)
- bitcoin.balanceprice (Your BTC Balance in USD)
+ Outputs
+ - bitcoin.totalbalance (Your BTC Balance)
+ - bitcoin.currentbtcprice (Current BTC Index price in USD)
+ - bitcoin.balanceprice (Your BTC Balance in USD)
  
  WorkerMetrics.ps1
  - Pulls current hash rate from Nicehash
  
  Outputs:
- bitcoin.workers.$workername (Will send metrics for as many workers as you have)
+ - bitcoin.workers.$workername (Will send metrics for as many workers as you have)
  
  Issues: 
  - Nicehash doesnt standardize format for hash rate, so 1 Gh/s comes through as 1, so another rig doing 700H/s will look like its faster on the graph
