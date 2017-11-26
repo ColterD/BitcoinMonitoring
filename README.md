@@ -31,6 +31,11 @@ I wrote these scripts to monitor the progress of my bitcoin mining using NiceHas
  - Nicehash doesnt standardize format for hash rate, so 1 Gh/s comes through as 1, so another rig doing 700H/s will look like its faster on the graph
 
 **How do I schedule these scripts?**
+
 Graphite/Grafana requires the metric to be sent every minute, or you will have gaps in the graph. Set up Windows task scheduler to run the script every minute.
 
 You can set up the script to run C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe with the arguments -file "C:\Scripts\BTCBalance.ps1" (for example, you can put it in whatever directory you want)
+
+**How do I make my dashboard look like yours?**
+
+I've included the json of my dashboard (Bitcoin.json), you can import it and modify as you like.
