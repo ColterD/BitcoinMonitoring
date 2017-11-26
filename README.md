@@ -1,6 +1,7 @@
 # Bitcoin Monitoring
 
 **What us it?**
+
 I wrote these scripts to monitor the progress of my bitcoin mining using NiceHash. 
 
 **What are the requirements?** 
