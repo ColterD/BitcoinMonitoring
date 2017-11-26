@@ -40,3 +40,6 @@ You can set up the script to run C:\Windows\System32\WindowsPowerShell\v1.0\powe
 **How do I make my dashboard look like yours?**
 
 I've included the json of my dashboard (Bitcoin.json), you can import it and modify as you like.
+
+
+**If this helps you and you feel generous, feel free to donate to 1GNHLUyBgU3aCkj2pbDvXqdL7gFn5akJCN**
